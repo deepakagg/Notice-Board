@@ -1,0 +1,6 @@
+{
+  // MongoDB setting
+  "dbConfig": {
+    "url" : "mongodb://localhost/ida"
+  }
+}
