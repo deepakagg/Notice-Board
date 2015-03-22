@@ -84,7 +84,7 @@ module.exports = {
                                 if(res == true){
                                     // Correct password
                                     request.session.loggedIn = true;
-                                    request.session.emal = request.body.email;
+                                    request.session.email = request.body.email;
                                     response.status(204).end();
                                 }
                                 else{

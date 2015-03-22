@@ -13,7 +13,7 @@ module.exports = {
         if(!request.validationErrors()){
             // Storing comment
             var newComment = new model.Comment();
-            newComment.user_email = request.body.email;
+            newComment.user_email = request.session.email;
             newComment.comment = request.body.comment;
 
             newComment.save(function(err) {
