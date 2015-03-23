@@ -2,7 +2,7 @@
  * Created by deepak
  */
 
-var log = require("../system/log");
+var log = require("../System/log");
 
 module.exports = {
     /*
